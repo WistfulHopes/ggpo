@@ -4,7 +4,7 @@
  * Use of this software is governed by the MIT license that can be found
  * in the LICENSE file.
  */
-
+/*
 #ifndef _GGPO_LINUX_H_
 #define _GGPO_LINUX_H_
 
@@ -25,3 +25,4 @@ public:  // functions
 };
 
 #endif
+*/

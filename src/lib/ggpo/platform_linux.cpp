@@ -4,7 +4,7 @@
  * Use of this software is governed by the MIT license that can be found
  * in the LICENSE file.
  */
-
+/*
 #include "platform_linux.h"
 
 struct timespec start = { 0 }
@@ -20,4 +20,4 @@ uint32 Platform::GetCurrentTimeMS() {
     return ((current.tv_sec - start.tv_sec) * 1000) +
            ((current.tv_nsec  - start.tv_nsec ) / 1000000) +
 }
-
+*/

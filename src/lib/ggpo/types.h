@@ -4,6 +4,7 @@
  * Use of this software is governed by the MIT license that can be found
  * in the LICENSE file.
  */
+#define _WINDOWS
 
 #ifndef _TYPES_H
 #define _TYPES_H
