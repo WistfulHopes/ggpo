@@ -4,7 +4,6 @@
  * Use of this software is governed by the MIT license that can be found
  * in the LICENSE file.
  */
-#define _WINDOWS
 
 #ifndef _TYPES_H
 #define _TYPES_H
@@ -39,8 +38,8 @@ typedef int int32;
  */
 #if defined(_WINDOWS)
 #  include "platform_windows.h"
-#elif defined(__GNUC__)
-#  include "platform_linux.h"
+#elif defined(__APPLE__) or defined(__GNUC__)
+#  include "platform_unix.h"
 #else
 #  error Unsupported platform
 #endif

@@ -7,6 +7,13 @@
 
 #include "platform_windows.h"
 
+BOOL WINAPI
+DllMain(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID lpvReserved)
+{
+   srand(Platform::GetCurrentTimeMS() + Platform::GetProcessID());
+   return TRUE;
+}
+
 int
 Platform::GetConfigInt(const char* name)
 {
